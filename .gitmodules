@@ -1,0 +1,6 @@
+[submodule "less"]
+	path = less
+	url = git://github.com/hit9/lilac-theme-less.git
+[submodule "pure"]
+	path = pure
+	url = git://github.com/kshiftlv/lilac-theme-pure.git

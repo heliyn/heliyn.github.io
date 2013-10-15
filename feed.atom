@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">直升机仓库</title>
+  <id>/feed.atom</id>
+  <updated>2013-10-15T18:00:00Z</updated>
+  <link href="/feed.atom" rel="self" />
+  <author>
+    <name>heliy</name>
+  </author>
+  <subtitle type="text">Bury.Heri.</subtitle>
+  <generator>PyAtom</generator>
+  <entry xml:base="/feed.atom">
+    <title type="text">感谢！</title>
+    <id>/post/blog_first.html</id>
+    <updated>2013-10-15T18:00:00Z</updated>
+    <link href="/post/blog_first.html" />
+    <author>
+      <name>heliy</name>
+    </author>
+    <content type="html">&lt;p&gt;终于开始个人blog试验&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;感谢&lt;a href="https://lilac-zh.readthedocs.org/en/latest/index.html"&gt;lilac&lt;/a&gt;，先用着默认主题吧:)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;感谢github，虽然只是星了一堆repo自己却没提供什么代码&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;感谢markdown，对连爬个网页都愁挺的菜鸟的福音&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;感谢Python，所谓真爱就是这个时候都不考虑Jekyll了（其实是懒得看Ruby&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;感谢Affymetrix，要是没被你们数据逼疯我今天还不想干这事&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以后就在这好好存放吧～&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;主题换为pure &lt;/p&gt;
+
+&lt;p&gt;less方面本来想自己调调颜色和字体的&lt;/p&gt;
+
+&lt;p&gt;无奈太小白了。。。&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="/feed.atom">
+    <title type="text">GARNETCROW-trade 个人翻译与解释</title>
+    <id>/post/gases_gc-trade-trans-explan.html</id>
+    <updated>2013-10-14T20:07:00Z</updated>
+    <link href="/post/gases_gc-trade-trans-explan.html" />
+    <author>
+      <name>heliy</name>
+    </author>
+    <content type="html">&lt;p&gt;//含个人脑补成分 参考需慎重&lt;br&gt;
+　　&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;愛、というものは　私にはもう出会うことのない［被称为爱的事物 我已经不可能与之重逢］&lt;br&gt;
+現実味のないただの言葉なんだと思ってたわ［想来也仅仅是没有现实意味的话语］  &lt;/p&gt;
+
+&lt;p&gt;誰かを呼ぶ声［呼唤着谁的声音］&lt;br&gt;
+ゆくて照らす光［照亮前方的光芒］&lt;br&gt;
+そんなものなくても　歩いてゆけるから　嵐をとめて［即使没有那种东西 因为也会前进 所以因暴风而停止］&lt;/p&gt;
+
+&lt;p&gt;あぁ　流れてゆく　流れてゆく［啊 流淌而去 流淌而去］&lt;br&gt;
+いつの世も哀しみは消えずにあるのなら　私が引き受けましょう［如果世上所有的哀伤都能消除 那换我来承受吧］&lt;br&gt;
+あぁ　とめどもなく　とめどもなく［啊 无法停止 无法停止］&lt;br&gt;
+いつの世も寂しさが消えずにあるのなら　私が引き受けましょう［如果世上所有的寂寞都能消除 那换我来承受吧］  &lt;/p&gt;
+
+&lt;p&gt;愛、というものを　どんな風に形にするのか［被称为爱的事物 是以何种方式形成的］&lt;br&gt;
+肝心なとこはいつも曖昧なものでイライラするわ［内心深处总是为暧昧的东西而不安］  &lt;/p&gt;
+
+&lt;p&gt;ささやかな想い［细小的心思］&lt;br&gt;
+迫りくる最期（おわり）［迫近的终末］&lt;br&gt;
+どんなにあがいても　限られた時なら　鼓動をみせて［即使如何挣扎 如果是在限制的时间中 能看到鼓动］&lt;/p&gt;
+
+&lt;p&gt;あぁ　こぼれてゆく　こぼれてゆく［啊 散落而去 散落而去］&lt;br&gt;
+いつの世も憎しみが消えぬとゆうのなら　私は笑っていましょう［如果世上所有的憎恨无法消除 那我会笑出来吧］&lt;br&gt;
+あぁ　絶えることなく　絶えることなく［啊 无法断绝 无法断绝］&lt;br&gt;
+いつの世も侘しさが消えぬというのなら　私は笑っていましょう［如果世上所有的悲凉无法消除 那我会笑出来吧］&lt;/p&gt;
+
+&lt;p&gt;帰らぬ日々を思わずには　いられぬ性も飼いならせずに［想起那已无法回去的日子 就连无所欲求的个性也无法养成］&lt;br&gt;
+願うのは無上の強さなど　慟哭に背を向け［比起期望着无上的坚强 不如痛哭着转身离去］
+　　&lt;/p&gt;
+
+&lt;p&gt;あぁ　彼のもとに　彼のもとに［啊 是因为他 是因为他］&lt;br&gt;
+いつの世も哀しみは消えずにあるのなら　私が引き受けましょう［如果世上所有的哀伤都能消除 那换我来承受吧］&lt;br&gt;
+あぁ　とめどもなく　とめどもなく［啊 无法停止 无法停止］&lt;br&gt;
+いつの世も寂しさが消えずにあるのなら　私が引き受けましょう［如果世上所有的寂寞都能消除 那换我来承受吧］&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;看到有人说这首词不是很说得通&lt;br&gt;
+那么我用我的脑洞来揣测下作词者AZUKI七的意思吧=v=&lt;/p&gt;
+
+&lt;p&gt;首先，是标题&lt;em&gt;trade&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;trade&lt;/em&gt; 的意思有营业、商业、贩卖、交换等&lt;br&gt;
+这首里面的意思应该是交换&lt;br&gt;
+或许会记得在十多年前的一首&lt;em&gt;水のない晴れた海へ&lt;/em&gt; 中有：  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;たった一つの願いを［这唯一的愿望］&lt;br&gt;
+叶える為だけの ［只为实现(这唯一的愿望)］&lt;br&gt;
+trading × 3  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;水のない晴れた海へ这首歌参考海的女儿的故事&lt;br&gt;
+而这句描写了美人鱼&lt;strong&gt;mermaid&lt;/strong&gt;用嗓子交换双腿&lt;br&gt;
+所以(我猜大概作为前提)&lt;strong&gt;trade&lt;/strong&gt;就是交换的意思吧 //&amp;lt;——有啥逻辑啊！&lt;br&gt;
+话说&lt;em&gt;水のない晴れた海へ&lt;/em&gt; 这首是正式第一专的第一曲&lt;br&gt;
+而&lt;em&gt;trade&lt;/em&gt; 则是散伙第十专的第一曲(作为单曲主打的&lt;em&gt;Nostalgia&lt;/em&gt; 除外)&lt;br&gt;
+&lt;del&gt;七大人您一定玩得很high是吧&lt;/del&gt;&lt;br&gt;
+　　&lt;/p&gt;
+
+&lt;p&gt;再说说词本体&lt;br&gt;
+乍看一下好似全词没有提到&lt;em&gt;trade&lt;/em&gt; 的&lt;br&gt;
+但有一词很重要：&lt;strong&gt;引き受け&lt;/strong&gt;［承担］&lt;br&gt;
+前面两重复的AB段有一贯的七式［不同的语句发散着相同与进一步的意味］的风格&lt;br&gt;
+而过渡段的两句&lt;strong&gt;帰らぬ&lt;/strong&gt;と&lt;strong&gt;願う&lt;/strong&gt;则替换了前面&lt;strong&gt;消えず&lt;/strong&gt;と&lt;strong&gt;消えぬ&lt;/strong&gt;的意味&lt;br&gt;
+//于是接着跟我脑洞扩大化就会有：&lt;br&gt;
+愛はただの言葉－＞（ゆく照らす光）歩いてゆく－＞いられぬ性 trade 悲しみ／寂しさ－＞消えずにある－＞飼いなら－＞引き受けましょう
+　　 &lt;center&gt;＝＞&lt;/center&gt;&lt;br&gt;
+愛に肝心なとこ－＞（迫りくる最期）あがいても－＞無上の強さ trade 憎しみ／侘しさ－＞消えねという－＞背を向け－＞笑っていましょう&lt;br&gt;
+//拿中文添油加醋一翻就会有：&lt;br&gt;
+（某位人才觉得）爱什么的只是无聊的话语－＞向着有光照的地方走去－＞（没有了光的时候希望）用 无欲的个性 交换 悲伤／寂寞－＞啊能把（悲伤／寂寞）消除掉－＞不去养成（这无欲的个性）了－＞那么这些（悲伤／寂寞）换我来承受吧&lt;br&gt;
+　　 &lt;center&gt;＝交易成功＝＞&lt;/center&gt;&lt;br&gt;
+（某位人才终于）爱燥动在内心的深处－＞即使如何在迫近的终末挣扎－＞（也无济于事愿望着能）用 无上的坚强 交换 憎恶／悲凉－＞不能把（憎恶／悲凉）消除掉－＞（不奢望坚强了）转身离去－＞那么我会为这些（憎恶／悲凉）笑出来吧&lt;br&gt;
+&lt;del&gt;怎么有种攻略路线的既视感&lt;/del&gt;    &lt;/p&gt;
+
+&lt;p&gt;至于为什么是&lt;strong&gt;笑っていましょう&lt;/strong&gt;呢？&lt;br&gt;
+这就是七惯用的［明明是不悲剧的词怎么虐得我一脸血］手法了&lt;br&gt;
+举个例子&lt;br&gt;
+5th Album THE TWILIGHT VALLEY&lt;em&gt;マージナルマン&lt;/em&gt; :  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;町を出たら マージナルマン［边缘人(Marginal Man)离开了小镇］&lt;br&gt;
+陽気なサーカスにであう［遇到了欢快的杂技表演］&lt;br&gt;
+おどけたリズムに歌いながら［他一边节奏滑稽地唱着歌］&lt;br&gt;
+冷たい川に飛び込む［一边跳进冰冷的河里］  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我相信能被这段触动人能瞬间拜倒在七门下&lt;br&gt;
+无感觉的或许觉得&lt;strong&gt;冷たい川&lt;/strong&gt;过于突兀吧&lt;br&gt;
+可以用［悲极生乐］来形容&lt;br&gt;
+大概转换成语句就是：&lt;br&gt;
+既无&lt;strong&gt;いられぬ性&lt;/strong&gt;又无&lt;strong&gt;無上の強さ&lt;/strong&gt;那么面对&lt;strong&gt;憎しみ／侘しさ&lt;/strong&gt;只能插科打诨了不是吗（笑）。&lt;br&gt;
+&lt;del&gt;欢快的旋律写这些词 七大人您一定玩得很high是吧&lt;/del&gt;  &lt;/p&gt;
+
+&lt;p&gt;写到这一定会有人觉得我脑洞过于巨大到什么都能装进去了&lt;br&gt;
+其实这么多也远不及［爱情不是你想卖想买就能卖］来得通俗易懂吧&lt;br&gt;
+觉得麻烦的话干脆理解成一般的爱情歌词就行了&lt;br&gt;
+不过作为七的门下狗把门庭的品味抬高点不是更好=v=  &lt;/p&gt;
+
+&lt;h5&gt;ps.&lt;/h5&gt;
+
+&lt;h6&gt;#七这张专辑的水平让我内牛满面，&lt;em&gt;海をゆく獅子&lt;/em&gt; （参考《老人与海》）、&lt;em&gt;鏡にみた夢&lt;/em&gt; （看完《源氏物语》后能否再用脑洞补补），还有很值得细品的&lt;em&gt;P.S GIRL&lt;/em&gt;&lt;/h6&gt;
+
+&lt;h5&gt;ps.ps.&lt;/h5&gt;
+
+&lt;h6&gt;#其实十首里最成谜的应该是&lt;em&gt;Maizy&lt;/em&gt; 才对啊，七是有提示说过描写&lt;strong&gt;走出伤痛&lt;/strong&gt;的但题目为什么是&lt;em&gt;Maizy&lt;/em&gt; 完全不明白啊，难道真的只是法国某所城市的名字吗？还有两句&lt;strong&gt;今宵また雨&lt;/strong&gt;と&lt;strong&gt;今宵まだ雨&lt;/strong&gt;有什么&lt;a href="http://bulo.hujiang.com/question/8716/"&gt;区别&lt;/a&gt;啊&lt;/h6&gt;
+
+&lt;h5&gt;ps.ps.ps&lt;/h5&gt;
+
+&lt;h6&gt;#完全自学的俺不是很明白&lt;strong&gt;嵐をとめて&lt;/strong&gt;到底是[停止暴风雨]还是[被暴风雨停止],但作为M的一员自觉站队了，欢迎老师指点m&amp;lt;(_-_)&amp;gt;m&lt;/h6&gt;
+
+&lt;hr&gt;
+</content>
+  </entry>
+  <entry xml:base="/feed.atom">
+    <title type="text">So Cold In Harbin.</title>
+    <id>/post/liquids_so-cold-in-Harbin-2013.html</id>
+    <updated>2013-10-14T19:30:00Z</updated>
+    <link href="/post/liquids_so-cold-in-Harbin-2013.html" />
+    <author>
+      <name>heliy</name>
+    </author>
+    <content type="html">&lt;p&gt;今年入冬尤其快。来哈尔滨第四年，第一次十一刚过就接近零度。&lt;/p&gt;
+
+&lt;p&gt;好歹传说中修了地铁也能算是二线城市吧，在这个时候还隔三差五地停水停电。&lt;del&gt;（学校：怪我咯&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;这种在暖气到来的前几天最难熬了。&lt;/p&gt;
+
+&lt;p&gt;大四开始，专业课、教研室的任务就一起上了，十一都没闲着，而现在：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;这才开学几个星期就结了两科，开始漫长的考试月。神经网络还好，&lt;del&gt;老师都说最后一届了不抓人，&lt;/del&gt;另一边的药动就是一堆的公式&lt;del&gt;和计算器&lt;/del&gt;，就算上课没神游复习时也早睡了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;以前上上课就行没作业现在专业课一来各个争先恐后地给任务。&lt;del&gt;R作图什么的我真心不知道啊。&lt;/del&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;教研室一下子下达了两个大任务和三个小任务。幸亏最开始就报完了告，不然我现在一定是欲哭无泪。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;之前还作死报了个没多少价值的程序员考试。ま，我还是11月再看吧。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;R什么的，为毛生物信息里都这么喜欢啊！perl的话我还能理解啊！&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;所以在等R编译的时间里发这种牢骚的我一定更无聊。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;title neta:&lt;a href="http://www.xiami.com/song/detail/id/3599925"&gt;So Cold In Iraland&lt;/a&gt; 虽然cold的意义不一样。&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="/feed.atom">
+    <title type="text">安装一个R包的艰难旅程</title>
+    <id>/post/solids_r-crlmm-install.html</id>
+    <updated>2013-10-14T18:30:00Z</updated>
+    <link href="/post/solids_r-crlmm-install.html" />
+    <author>
+      <name>heliy</name>
+    </author>
+    <content type="html">&lt;p&gt;好不容易为SNP数据找到这个包&lt;a href="http://www.bioconductor.org/packages/2.12/bioc/html/crlmm.html"&gt;crlmm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;然后经历了以下阶段：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;按说明手册来装&lt;/li&gt;
+&lt;/ul&gt;
+
+            &lt;div class="highlight"&gt;
+              &lt;pre&gt;&lt;code&gt;source(&amp;quot;http://bioconductor.org/biocLite.R&amp;quot;)
+biocLite(&amp;quot;crlmm&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+            &lt;/div&gt;
+            
+&lt;p&gt;ERROR: dependency ‘DBI’ is not available for package ‘RSQLite’&lt;/p&gt;
+
+&lt;p&gt;错误：没有DBI包&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;去装DBI&lt;/li&gt;
+&lt;/ul&gt;
+
+            &lt;div class="highlight"&gt;
+              &lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;~/pro/packages/R/DBI_0.2-7.tar.gz&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+            &lt;/div&gt;
+            
+&lt;p&gt;错误：R的版本是2.14.1，程序包&amp;#39;DBI&amp;#39;要求版本为&amp;gt;= 2.15.0的R&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;升级R 至3.0.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="http://www.cnblogs.com/emanlee/p/3349650.html"&gt;3.0.2包&lt;/a&gt;
+   &lt;a href="http://isnailbook.com/archives/131"&gt;安装方法&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;wget http://cran.rstudio.com/src/base/R-3/R-3.0.2.tar.gz
+tar xzvf R-3.0.2.tar.gz
+&lt;span class="nb"&gt;cd &lt;/span&gt;R-3.0.2
+./configure
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;error: with-readline=yes (default) and headers/lib are not available&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/17637164/error-with-readline-yes-default-and-headers-lib-are-not-available"&gt;参考&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;./configure --with-x&lt;span class="o"&gt;=&lt;/span&gt;no --with-readline&lt;span class="o"&gt;=&lt;/span&gt;no
+make
+sudo make install
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;再按最开始来，中间终于没报错了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;撒花！&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="/feed.atom">
+    <title type="text">Hello World!</title>
+    <id>/post/sample.html</id>
+    <updated>2013-05-21T14:30:00Z</updated>
+    <link href="/post/sample.html" />
+    <author>
+      <name>heliy</name>
+    </author>
+    <content type="html">&lt;p&gt;Thank you for using lilac to write blog!&lt;/p&gt;
+
+&lt;p&gt;This is a sample post.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Any issues? Please go to &lt;a href="https://github.com/hit9/lilac/issues"&gt;https://github.com/hit9/lilac/issues&lt;/a&gt; to let &lt;a href="mailto:nz2324@126.com"&gt;me&lt;/a&gt; know.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
