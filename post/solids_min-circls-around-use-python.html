@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Bury.Heri." />
+  <title>最大不覆盖点的圆</title>
+  <link rel="stylesheet" href="/pure/static/css/pure-min.css" type="text/css" />
+  <link rel="stylesheet" href="/pure/static/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="/pure/static/css/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="/pure/static/css/post.css" type="text/css" />
+</head>
+<body>
+  <div class="pure-g-r" id="layout">
+    <div class="sidebar pure-u">
+      <header class="header pure-u-1">
+        <hgroup>
+          <h1 class="brand-title">直升机仓库</h1>
+          <h2 class="brand-tagline">Bury.Heri.</h2>
+        </hgroup>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/tags.html">Tags</a>
+            </li>
+            <li class="nav-item">
+              <a href="/archives.html">Archives</a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="/feed.atom">Rss</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="content pure-u-1">
+      <div class="posts pure-g">
+        <!-- A wrapper for all the blog posts -->
+        <section class="pure-u-1">
+
+          <div class="post-description pure-u-1">
+              <p class="date">written on Oct  15, 13 </p>
+  <h1 class="title">最大不覆盖点的圆</h1>
+                    <span class="tags post-category">
+      <a href="/tag/[solids].html">[solids]</a>
+    </span>
+              <span class="tags post-category">
+      <a href="/tag/python.html">python</a>
+    </span>
+              <span class="tags post-category">
+      <a href="/tag/好学生.html">好学生</a>
+    </span>
+              <span class="tags post-category">
+      <a href="/tag/算法.html">算法</a>
+    </span>
+        <div class="post-html">
+    <p>要求在画布上随机产生十万个点</p>
+
+<p>找到最大的10个能不覆盖产生的点的圆</p>
+
+<p>算法是没想 本来以为会有现成的 结果发现都是图论里的Orz</p>
+
+<p>最终还是把附近点的距离算了遍Orz</p>
+
+<p>再用随机的方法选可能的点排序</p>
+
+<p>试验了几次 在1000x1000的画布上半径最多能到1.42左右</p>
+
+<del>R作图什么的我才不知道呢</del>
+<div class="highlight"><pre><span class="c">#coding:UTF-8</span>
+
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">numpy</span>
+
+<span class="n">dotcount</span><span class="o">=</span><span class="mi">1000000</span> <span class="c">#取10000个数</span>
+<span class="n">axismax</span><span class="o">=</span><span class="mi">1000</span>     <span class="c">#坐标限定在[0,1000)</span>
+<span class="n">ranr</span><span class="o">=</span><span class="p">(</span><span class="n">dotcount</span><span class="o">/</span><span class="n">axismax</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="mi">2</span> <span class="c">#考虑附近的点的范围</span>
+
+<span class="n">dots</span><span class="o">=</span><span class="p">{}</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">dotcount</span><span class="p">):</span>
+  <span class="n">dots</span><span class="p">[</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">*</span><span class="n">axismax</span><span class="p">]</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">*</span><span class="n">axismax</span>
+<span class="c">#取出横坐标排序，方便查找</span>
+<span class="n">dotx</span><span class="o">=</span><span class="n">dots</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<span class="n">dotx</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+
+<span class="c">#以定的随机性得到点(x,y)满足的半径</span>
+<span class="k">def</span> <span class="nf">racr</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
+  <span class="c">#l为在所有点中横坐标与点相近的点的横坐标</span>
+  <span class="n">l</span><span class="o">=</span><span class="n">dotx</span><span class="p">[</span><span class="nb">int</span><span class="p">((</span><span class="n">dotcount</span><span class="o">/</span><span class="n">axismax</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">ranr</span><span class="p">)):</span><span class="nb">int</span><span class="p">((</span><span class="n">dotcount</span><span class="o">/</span><span class="n">axismax</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">ranr</span><span class="p">))]</span>
+  <span class="n">r</span><span class="o">=</span><span class="nb">min</span><span class="p">([</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">dx</span><span class="o">-</span><span class="n">x</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="n">dots</span><span class="p">[</span><span class="n">dx</span><span class="p">]</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="k">for</span> <span class="n">dx</span> <span class="ow">in</span> <span class="n">l</span><span class="p">])</span>
+  <span class="k">return</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">r</span><span class="p">)</span>
+
+<span class="c">#随机取2000个可能的圆心点 找到10个最大半径</span>
+<span class="c">#点在[ranr,axismax-rar]之间 过于靠边可能导致点距离计算错误</span>
+<span class="n">aty</span><span class="o">=</span><span class="p">[(</span><span class="s">&#39;x&#39;</span><span class="p">,</span><span class="nb">float</span><span class="p">),(</span><span class="s">&#39;y&#39;</span><span class="p">,</span><span class="nb">float</span><span class="p">),(</span><span class="s">&#39;r&#39;</span><span class="p">,</span><span class="nb">float</span><span class="p">)]</span>
+<span class="n">dic</span><span class="o">=</span><span class="p">[</span><span class="n">racr</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">ranr</span><span class="p">,</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">*</span><span class="n">axismax</span><span class="p">),</span><span class="nb">min</span><span class="p">(</span><span class="n">axismax</span><span class="o">-</span><span class="n">ranr</span><span class="p">,</span>\
+     <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">*</span><span class="n">axismax</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">200</span><span class="p">)]</span>
+<span class="n">ath</span><span class="o">=</span><span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">dic</span><span class="p">,</span><span class="n">dtype</span><span class="o">=</span><span class="n">aty</span><span class="p">)</span>
+<span class="n">resum</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">ath</span><span class="p">,</span><span class="n">order</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;r&#39;</span><span class="p">]))</span>
+<span class="c">#输出结果为(点横坐标,点纵坐标,半径)</span>
+<span class="k">print</span> <span class="n">resum</span><span class="p">[</span><span class="o">-</span><span class="mi">10</span><span class="p">:]</span>
+</pre></div>
+
+  </div>
+  <div class="cut"><a href="/src/post/solids_min-circls-around-use-python.md">Show Source</a><div>
+    <!-- Disqus Comment BEGIN -->
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'buryheri'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  <!-- Disqus Comment END -->
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="pure-menu pure-menu-horizontal pure-menu-open">
+          <p>
+                        Copyright &copy; 2013 - heliy |
+            Powered by <a href="https://github.com/hit9/lilac">lilac</a> |
+            Theme by <a href="http://kshift.me">kshift</a>
+                      </p>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

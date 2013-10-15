@@ -1,6 +1,6 @@
 title = "GARNETCROW-trade 个人翻译与解释"
 datetime = "2013-10-14 20:07"
-tags = ["[gases]","GARNETCROW","AZUKI七","翻译","歌词"]
+tags = ["[gases]","GARNETCROW","AZUKI七","日译","歌词"]
 
 ---------------------------------
 
